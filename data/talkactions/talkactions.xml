@@ -28,6 +28,10 @@
 	<talkaction words="/summon" separator=" " script="place_summon.lua" />
 	<talkaction words="/chameleon" separator=" " script="chameleon.lua" />
 	<talkaction words="/addskill" separator=" " script="add_skill.lua" />
+	<talkaction words="/mccheck" script="mccheck.lua" />
+	<talkaction words="/ghost" script="ghost.lua" />
+	<talkaction words="/clean" script="clean.lua" />
+	<talkaction words="/hide" script="hide.lua" />
 
 	<!-- player talkactions -->
 	<talkaction words="!buypremium" script="buyprem.lua"/>
@@ -39,16 +43,8 @@
 	<talkaction words="!kills" script="kills.lua"/>
 	<talkaction words="!online" script="online.lua"/>
 	<talkaction words="!serverinfo" script="serverinfo.lua"/>
-	<talkaction words="!cast" script="cast.lua"/>
 
 	<!-- test talkactions -->
 	<talkaction words="!z" separator=" " script="magiceffect.lua"/>
 	<talkaction words="!x" separator=" " script="animationeffect.lua"/>
-	
-		<!-- Live Stream -->
-	<talkaction words="!live on;/live on" filter="word-spaced" event="script" value="livestreamon.lua"/>
-	<talkaction words="!live off;/live off" filter="word-spaced" event="script" value="livestreamoff.lua"/>
-	<talkaction words="!live status;/live status" filter="word-spaced" event="script" value="livestreamstatus.lua"/>
-	<talkaction words="!live description;/live description" filter="word-spaced" event="script" value="livestreamdescription.lua"/>
-	<!--  <talkaction words="!livenick;/livenick" event="script" value="???????????????.lua"/> -->
 </talkactions>
